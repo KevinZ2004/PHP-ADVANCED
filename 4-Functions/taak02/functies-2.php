@@ -1,8 +1,17 @@
 <?php
-$a = 10;
-$b = 20;
-$c = 30;
-$d = 60;
 
-echo "Als ik de getallen ". "$a, ". "$b ". "en ". "$c ". "bij elkaar optel, is de uitkomst ". "$d.";
+function rekenUit(int $getal1, int $getal2, int $getal3)
+{
+    return $getal1 + $getal2 + $getal3;
+}
+
+
+
+$opgegevengetal1 = 4;
+$opgegevengetal2 = 2;
+$opgegevengetal3 = 9;
+
+$totaal = rekenUit($opgegevengetal1, $opgegevengetal2, $opgegevengetal3)
+
+echo "als ik de getallen $opgegevengetal1, $opgegevengetal2, en $opgegevengetal3 bij elkaar optel, is de uitkomst 15";
 ?> 

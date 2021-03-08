@@ -16,6 +16,16 @@
     <label>cel-padding (px)</label>
     <input name="cel-padding (px)">
     </div>
+    <div>
+      <label for="achtergrondkleur">achtergrondkleur</label>
+      <select name="achtergrondkleur" id="achtergrondkleur">
+        <option value="red">Red</option>
+        <option value="blue">blue</option>
+        <option value="green">green</option>
+        <option value="black">black</option>
+        <option value="brown">brown</option>
+      </select>
+    </div>
     <button>Submit</button>
 
   </form>

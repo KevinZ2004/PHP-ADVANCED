@@ -7,6 +7,7 @@
   <title>Form</title>
 </head>
 <body>
+  <table border="1"></table>
   <form action="results.html" method="GET">
     <div>
     <label for="">Tabelranddickte (px):</label>
@@ -25,6 +26,15 @@
         <option value="black">black</option>
         <option value="brown">brown</option>
       </select>
+      <style>
+        body {
+          background-color: <?php if (!empty($_POST)) {
+                                  echo $_POST['kleur'];
+                              } ?>;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+        }
     </div>
     <button>Submit</button>
 

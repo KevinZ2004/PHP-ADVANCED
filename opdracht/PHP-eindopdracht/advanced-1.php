@@ -7,38 +7,18 @@
   <title>Form</title>
 </head>
 <body>
-  <table border="1"></table>
   <form action="results.html" method="GET">
     <div>
-    <label for="">Tabelranddickte (px):</label>
-    <input name="Tabelranddickte (px):">
-    </div>
-    <div>
-    <label>cel-padding (px)</label>
-    <input name="cel-padding (px)">
-    </div>
-    <div>
-      <label for="achtergrondkleur">achtergrondkleur</label>
-      <select name="achtergrondkleur" id="achtergrondkleur">
-        <option value="red">Red</option>
-        <option value="blue">blue</option>
-        <option value="green">green</option>
-        <option value="black">black</option>
-        <option value="brown">brown</option>
-      </select>
-      <style>
-        body {
-          background-color: <?php if (!empty($_POST)) {
-                                  echo $_POST['kleur'];
-                              } ?>;
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
-        }
-    
-     <button>Submit </button>
-
+    <label for="achtergrondkleur">Kleur</label>
+    <select id="Kleur">
+     <option value="red">Red</option>
+     <option value="blue">Blue</option>
+     <option value="green">Green</option>
+     <option value="black">Black</option>
+     <option value="brown">Brown</option>
+    </select>
+      <input type ="Submit" value="submit"> 
   </form>
-
-
+</div>
+</body>
 </html>

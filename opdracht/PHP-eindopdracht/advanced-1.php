@@ -1,24 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie-edge">
-  <title>Form</title>
-</head>
-<body>
-  <form action="results.html" method="GET">
-    <div>
-    <label for="achtergrondkleur">Kleur</label>
-    <select id="Kleur">
-     <option value="red">Red</option>
-     <option value="blue">Blue</option>
-     <option value="green">Green</option>
-     <option value="black">Black</option>
-     <option value="brown">Brown</option>
-    </select>
-      <input type ="Submit" value="submit"> 
-  </form>
+<html>
+    <head>
+        <link rel="stylesheet" href="advanced-2.php">
+    </head>
+    <body>
+        <div class="wrapper">
+
+            <form name="invoer" action="advanced-2.php" method="POST">
+
+            <select name="achtergrond-kleur" id="achtergrond-kleur">
+                <?php
+                    $kleuren = array("red", "blue", "green", "black", "brown");
+                        foreach($kleuren as $optie){
+                        echo "<option value=$optie>$optie</option>";};
+                ?>
+            </select>
+            <a>achtergrond kleur</a>
 </div>
 </body>
 </html>

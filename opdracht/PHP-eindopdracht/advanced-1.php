@@ -24,8 +24,8 @@
             <a>padding</a>
 
             <input type="submit" name="submit" value="verstuur">
-            
-             
+
+            ø 
          </div>
     </body>
 </html>

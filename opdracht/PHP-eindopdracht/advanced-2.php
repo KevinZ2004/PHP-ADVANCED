@@ -21,6 +21,16 @@
                        <th>key</th>
                        <th>value</th>
                     </tr>
+
+                    <?php
+                        $info2= array("naam"=>"naam", "achternaam"=>"achternaam", "klas"=>"klas", "muziek"=>"favoriete muziek");
+                        $info= array("naam=>Kevin", "achternaam"=>"Zwolschen", "klas"=>"LCTAOO0d", "muziek"=>"pop");
+
+
+                        function MaakRij($info2){
+
+                                 return $info2;
+                        }
     
 </body>
 </html>

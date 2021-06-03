@@ -25,7 +25,7 @@
 
             <input type="submit" name="submit" value="verstuur">
 
-            ø 
+             
          </div>
     </body>
 </html>

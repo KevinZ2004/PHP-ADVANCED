@@ -31,6 +31,14 @@
 
                                  return $info2;
                         }
-    
-</body>
+                             foreach($info2 as $index => $thing){
+
+                                 echo "<tr><td>$thing</td> $info[$index] </td></tr>";
+                             }
+
+                    ?>
+                </table>
+            </div>
+        </div>
+    </body>
 </html>

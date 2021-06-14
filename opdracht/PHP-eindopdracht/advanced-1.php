@@ -32,7 +32,7 @@
             <input type="text" name="padding">
             <a>padding</a>
 
-            <input type="submit" name="submit" value="vesrtuur">
+            <input type="submit" name="submit" value="verstuur">
 
 
 

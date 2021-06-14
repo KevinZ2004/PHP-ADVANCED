@@ -10,6 +10,8 @@
                 table,tr,td {
                     padding: <?php echo $_POST["padding"] ?>px;
                     border: <?php echo $_POST["border"] ?>px solid black;
+                    padding-right: 100px;
+                    padding-left: 100px;
                 }
         </style>
     </head>

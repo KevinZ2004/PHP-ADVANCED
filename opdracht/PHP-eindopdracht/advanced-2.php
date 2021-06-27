@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="style.css">
         <style>
                 body {
-                    background-color: <?php echo $_POST["achtergrond-kleur"] ?> ;
+                    background-color: <?php echo $_POST["achtergrondkleur"] ?> ;
                     color: <?php echo $_POST["tekst-kleur"] ?>;
                 }
                 table,tr,td {
@@ -28,11 +28,6 @@
                         $info2= array("naam"=>"naam", "achternaam"=>"achternaam", "klas"=>"klas", "muziek"=>"favoriete muziek");
                         $info= array("naam"=>"Kevin", "achternaam"=>"Zwolschen", "klas"=>"LCTAOOoD", "muziek"=>"pop muziek");
                         
-
-                        function maakrij($info2){
-
-                                return $info2;
-                        }
                             foreach($info2 as $index => $thing){
 
                                 echo "<tr><td> $thing </td><td> $info[$index] </td></tr>";
